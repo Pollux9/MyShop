@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>E-Commerce di Pollastro</title>
+  <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+
+  <div id="left">
+    <div id="title">
+      <h1 style="color:white;"><i>Shopping</i></h1>
+    </div>
+    <div id="shop-list">
+      <div class="shop-line">
+        <div class="shop-item">
+          <div class="shop-item1">
+            <div class="shop-item1-img">
+              <img src="imgs/site/polaroid.png" style="width:180px;height:180px;border-radius:10px;">
+            </div>
+            <div class="shop-item1-info">
+              <div class="shop-item1-title">
+                <h1 style="color:#00ADB5;margin:0px;padding-top:10px;">Polaroid</h1>
+              </div>
+              <div class="shop-item1-desc">
+                <p>Modello - OneStep2<br>Double exposure</p>
+              </div>
+              <div class="shop-item1-price">
+                <h3>€99.00</h3>
+              </div>
+            </div>
+          </div>
+          <div class="shop-item-icon">
+            <div class="shop-item-plus-minus">
+              <div class="shop-item-plus-minus-hover">
+                <img onclick="plus1()" src="imgs/site/cart+.png">
+              </div>
+            </div>
+            <div class="shop-item-plus-minus">
+              <div class="shop-item-plus-minus-hover">
+                <img onclick="minus1()" src="imgs/site/cart-.png">
+              </div>
+            </div>
+            <div class="shop-item-plus-minus-down">
+              <div class="shop-item-plus-minus-hover-down">
+                <img class="cart-down" onclick="window.location.href='#right-cart'" src="imgs/site/cart-down.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shop-line">
+        <div class="shop-item">
+          <div class="shop-item1">
+            <div class="shop-item1-img">
+              <img src="imgs/site/tetris.jpg" style="width:180px;height:180px;border-radius:10px;">
+            </div>
+            <div class="shop-item1-info">
+              <div class="shop-item1-title">
+                <h1 style="color:#00ADB5;margin:0px;padding-top:10px;">Tetris</h1>
+              </div>
+              <div class="shop-item1-desc">
+                <p>Versione - Ultimate<br>Console - Nintendo3DS</p>
+              </div>
+              <div class="shop-item1-price">
+                <h3>€19,00</h3>
+              </div>
+            </div>
+          </div>
+          <div class="shop-item-icon">
+            <div class="shop-item-plus-minus">
+              <div class="shop-item-plus-minus-hover">
+                <img onclick="plus2()" src="imgs/site/cart+.png">
+              </div>
+            </div>
+            <div class="shop-item-plus-minus">
+              <div class="shop-item-plus-minus-hover">
+                <img onclick="minus2()" src="imgs/site/cart-.png">
+              </div>
+            </div>
+            <div class="shop-item-plus-minus-down">
+              <div class="shop-item-plus-minus-hover-down">
+                <img class="cart-down" onclick="window.location.href='#right-cart'" src="imgs/site/cart-down.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shop-line">
+        <div class="shop-item">
+          <div class="shop-item1">
+            <div class="shop-item1-img">
+              <img src="imgs/site/gameboy.jpg" style="width:180px;height:180px;border-radius:10px;">
+            </div>
+            <div class="shop-item1-info">
+              <div class="shop-item1-title">
+                <h1 style="color:#00ADB5;margin:0px;padding-top:10px;">GameBoy</h1>
+              </div>
+              <div class="shop-item1-desc">
+                <p>Modello - Color, viola<br>Display - 160x144 pxls</p>
+              </div>
+              <div class="shop-item1-price">
+                <h3>€149,00</h3>
+              </div>
+            </div>
+          </div>
+          <div class="shop-item-icon">
+            <div class="shop-item-plus-minus">
+              <div class="shop-item-plus-minus-hover">
+                <img onclick="plus3()" src="imgs/site/cart+.png">
+              </div>
+            </div>
+            <div class="shop-item-plus-minus">
+              <div class="shop-item-plus-minus-hover">
+                <img onclick="minus3()" src="imgs/site/cart-.png">
+              </div>
+            </div>
+            <div class="shop-item-plus-minus-down">
+              <div class="shop-item-plus-minus-hover-down">
+                <img class="cart-down" onclick="window.location.href='#right-cart'" src="imgs/site/cart-down.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shop-line">
+        <div class="shop-item">
+          <div class="shop-item1">
+            <div class="shop-item1-img">
+              <img src="imgs/site/keyboard.png" style="width:180px;height:180px;border-radius:10px;">
+            </div>
+            <div class="shop-item1-info">
+              <div class="shop-item1-title">
+                <h1 style="color:#00ADB5;margin:0px;padding-top:10px;">Tastiera</h1>
+              </div>
+              <div class="shop-item1-desc">
+                <p>Meccanica<br>Forma fattore - 60%</p>
+              </div>
+              <div class="shop-item1-price">
+                <h3>€79,00</h3>
+              </div>
+            </div>
+          </div>
+          <div class="shop-item-icon">
+            <div class="shop-item-plus-minus">
+              <div class="shop-item-plus-minus-hover">
+                <img onclick="plus4()" src="imgs/site/cart+.png">
+              </div>
+            </div>
+            <div class="shop-item-plus-minus">
+              <div class="shop-item-plus-minus-hover">
+                <img onclick="minus4()" src="imgs/site/cart-.png">
+              </div>
+            </div>
+            <div class="shop-item-plus-minus-down">
+              <div class="shop-item-plus-minus-hover-down">
+                <img class="cart-down" onclick="window.location.href='#right-cart'" src="imgs/site/cart-down.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shop-line">
+        <div class="shop-item">
+          <div class="shop-item1">
+            <div class="shop-item1-img">
+              <img src="imgs/site/controller.jpg" style="width:180px;height:180px;border-radius:10px;">
+            </div>
+            <div class="shop-item1-info">
+              <div class="shop-item1-title">
+                <h1 style="color:#00ADB5;margin:0px;padding-top:10px;">Controller</h1>
+              </div>
+              <div class="shop-item1-desc">
+                <p>Versione - Super Nintendo<br>Colore - viola</p>
+              </div>
+              <div class="shop-item1-price">
+                <h3>€19,00</h3>
+              </div>
+            </div>
+          </div>
+          <div class="shop-item-icon">
+            <div class="shop-item-plus-minus">
+              <div class="shop-item-plus-minus-hover">
+                <img onclick="plus5()" src="imgs/site/cart+.png">
+              </div>
+            </div>
+            <div class="shop-item-plus-minus">
+              <div class="shop-item-plus-minus-hover">
+                <img onclick="minus5()" src="imgs/site/cart-.png">
+              </div>
+            </div>
+            <div class="shop-item-plus-minus-down">
+              <div class="shop-item-plus-minus-hover-down">
+                <img class="cart-down" onclick="window.location.href='#right-cart'" src="imgs/site/cart-down.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="end-left">
+      <p style="color:white;">Articoli</p>
+    </div>
+  </div>
+
+  <div id="right-cart">
+    <div id="right-cart-title">
+      <h1>Carrello</h1>
+    </div>
+    <div id="right-cart-tot">
+      <h1>Tot. €</h1>
+      <h1 id="cart-tot">0</h1>
+      <h1>,00</h1>
+    </div>
+    <div id="right-cart-content">
+      <div id="right-cart-content1">
+        <div id="cart-content1" class="right-cart-content-container">
+          <div class="right-cart-content-item">
+            <div class="right-cart-content-item1">
+              <div class="right-cart-content-top">
+                <div class="right-cart-content-name">
+                  <p style="color:#00ADB5;font-weight:bold;">Polaroid</p>
+                </div>
+                <div class="right-cart-content-quantity">
+                  <p>x</p>
+                  <p id="cart-item-quantity1">1</p>
+                </div>
+              </div>
+              <div class="right-cart-content-bottom">
+                <div class="right-cart-content-img">
+                  <img src="imgs/site/polaroid.png" style="height:60px;width:60px;border-radius:5px;">
+                </div>
+                <div class="right-cart-content-price">
+                  <p style="font-weight:bold;">€99,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="right-cart-content-icon">
+              <div class="right-cart-content-icon-hover">
+                <img onclick="del1()" src="imgs/site/trash.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cart-content2" class="right-cart-content-container">
+          <div class="right-cart-content-item">
+            <div class="right-cart-content-item1">
+              <div class="right-cart-content-top">
+                <div class="right-cart-content-name">
+                  <p style="color:#00ADB5;font-weight:bold;">Tetris</p>
+                </div>
+                <div class="right-cart-content-quantity">
+                  <p>x</p>
+                  <p id="cart-item-quantity2">1</p>
+                </div>
+              </div>
+              <div class="right-cart-content-bottom">
+                <div class="right-cart-content-img">
+                  <img src="imgs/site/tetris.jpg" style="height:60px;width:60px;border-radius:5px;">
+                </div>
+                <div class="right-cart-content-price">
+                  <p style="font-weight:bold;">€19,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="right-cart-content-icon">
+              <div class="right-cart-content-icon-hover">
+                <img onclick="del2()" src="imgs/site/trash.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cart-content3" class="right-cart-content-container">
+          <div class="right-cart-content-item">
+            <div class="right-cart-content-item1">
+              <div class="right-cart-content-top">
+                <div class="right-cart-content-name">
+                  <p style="color:#00ADB5;font-weight:bold;">GameBoy</p>
+                </div>
+                <div class="right-cart-content-quantity">
+                  <p>x</p>
+                  <p id="cart-item-quantity3">1</p>
+                </div>
+              </div>
+              <div class="right-cart-content-bottom">
+                <div class="right-cart-content-img">
+                  <img src="imgs/site/gameboy.jpg" style="height:60px;width:60px;border-radius:5px;">
+                </div>
+                <div class="right-cart-content-price">
+                  <p style="font-weight:bold;">€149,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="right-cart-content-icon">
+              <div class="right-cart-content-icon-hover">
+                <img onclick="del3()" src="imgs/site/trash.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cart-content4" class="right-cart-content-container">
+          <div class="right-cart-content-item">
+            <div class="right-cart-content-item1">
+              <div class="right-cart-content-top">
+                <div class="right-cart-content-name">
+                  <p style="color:#00ADB5;font-weight:bold;">Tastiera</p>
+                </div>
+                <div class="right-cart-content-quantity">
+                  <p>x</p>
+                  <p id="cart-item-quantity4">1</p>
+                </div>
+              </div>
+              <div class="right-cart-content-bottom">
+                <div class="right-cart-content-img">
+                  <img src="imgs/site/keyboard.png" style="height:60px;width:60px;border-radius:5px;">
+                </div>
+                <div class="right-cart-content-price">
+                  <p style="font-weight:bold;">€79,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="right-cart-content-icon">
+              <div class="right-cart-content-icon-hover">
+                <img onclick="del4()" src="imgs/site/trash.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cart-content5" class="right-cart-content-container">
+          <div class="right-cart-content-item">
+            <div class="right-cart-content-item1">
+              <div class="right-cart-content-top">
+                <div class="right-cart-content-name">
+                  <p style="color:#00ADB5;font-weight:bold;">Controller</p>
+                </div>
+                <div class="right-cart-content-quantity">
+                  <p>x</p>
+                  <p id="cart-item-quantity5">1</p>
+                </div>
+              </div>
+              <div class="right-cart-content-bottom">
+                <div class="right-cart-content-img">
+                  <img src="imgs/site/controller.jpg" style="height:60px;width:60px;border-radius:5px;">
+                </div>
+                <div class="right-cart-content-price">
+                  <p style="font-weight:bold;">€19,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="right-cart-content-icon">
+              <div class="right-cart-content-icon-hover">
+                <img onclick="del5()" src="imgs/site/trash.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="end-right">
+      <p>Designed by<br>Alessio Pollastro</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
